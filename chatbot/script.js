@@ -2,8 +2,6 @@ document.addEventListener("DOMContentLoaded", function (e) {
 
     const send = document.getElementById("send");
 
-
-
     send.addEventListener("click", function (e) {
 
         e.preventDefault();
@@ -38,6 +36,9 @@ document.addEventListener("DOMContentLoaded", function (e) {
                 console.log(obj);
 
                 messageDisplaySection.innerHTML += obj.resultat;
+
+                let messageBody = document.querySelector('#messageDisplaySection');
+                messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
 
             }
         }

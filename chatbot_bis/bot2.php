@@ -20,12 +20,11 @@ if($r->rowCount() > 0 ){
         
 
 }else{
+     
+    $reponse['resultat'] .= '<div id="messagesContainer">
+    <div class="chat usersMessages">'.$userMessages.'</div></div>';
     $reponse['resultat'] .= '<div class="messagesContainer"><div class="chat botMessages">Désolé, je n\'ai pas compris :/ veux-tu être redirigé vers une page?</div></div>';
 }
 
 
 echo json_encode($reponse);
-
-
-
-?>
