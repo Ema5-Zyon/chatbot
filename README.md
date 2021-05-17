@@ -8,4 +8,4 @@ Ce chatbot est prévu pour un site de protection animal, il permettra à l'utili
 *Fichier script dans chatbot modifié afin que les messages s'ajoutent au fil de la conversation*
 
 ## Modif 2
-- faire en sorte que la scrollbar restent toujours en bas afin de visualiser les nouveaux messages
+- faire en sorte que la scrollbar reste toujours en bas afin de visualiser les nouveaux messages
